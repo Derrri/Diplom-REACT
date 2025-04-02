@@ -1,0 +1,113 @@
+{
+    "success": true,
+    "result": {
+      "halls": [
+        {
+          "id": 2933,
+          "hall_name": "Зал 1",
+          "hall_rows": 10,
+          "hall_places": 10,
+          "hall_config": [
+            ["standart", "standart", "vip", "vip", "standart", "standart"],
+            ["standart", "standart", "vip", "vip", "standart", "standart"],
+            ["standart", "standart", "vip", "vip", "standart", "standart"],
+            ["standart", "standart", "vip", "vip", "standart", "standart"],
+            ["standart", "standart", "vip", "vip", "standart", "standart"],
+            ["standart", "standart", "vip", "vip", "standart", "standart"],
+            ["standart", "standart", "vip", "vip", "standart", "standart"],
+            ["standart", "standart", "vip", "vip", "standart", "standart"],
+            ["standart", "standart", "vip", "vip", "standart", "standart"],
+            ["standart", "standart", "vip", "vip", "standart", "standart"]
+          ],
+          "hall_price_standart": 100,
+          "hall_price_vip": 350,
+          "hall_open": 1
+        },
+        {
+          "id": 2934,
+          "hall_name": "Зал 2",
+          "hall_rows": 10,
+          "hall_places": 10,
+          "hall_config": [
+            ["standart", "standart", "vip", "vip", "standart", "standart"],
+            ["standart", "standart", "vip", "vip", "standart", "standart"],
+            ["standart", "standart", "vip", "vip", "standart", "standart"],
+            ["standart", "standart", "vip", "vip", "standart", "standart"],
+            ["standart", "standart", "vip", "vip", "standart", "standart"],
+            ["standart", "standart", "vip", "vip", "standart", "standart"],
+            ["standart", "standart", "vip", "vip", "standart", "standart"],
+            ["standart", "standart", "vip", "vip", "standart", "standart"],
+            ["standart", "standart", "vip", "vip", "standart", "standart"],
+            ["standart", "standart", "vip", "vip", "standart", "standart"]
+          ],
+          "hall_price_standart": 100,
+          "hall_price_vip": 350,
+          "hall_open": 1
+        }
+      ],
+      "films": [
+        {
+          "id": 957,
+          "film_name": "Кот в сапогах",
+          "film_duration": 90,
+          "film_description": "Интересен",
+          "film_origin": "США",
+          "film_poster": "/src/assets/298109b676f45a254068b547fa92dc1a.jpg"
+        },
+        {
+          "id": 958,
+          "film_name": "Звездные войны",
+          "film_duration": 120,
+          "film_description": "Интересен",
+          "film_origin": "США",
+          "film_poster": "/src/assets/298109b676f45a254068b547fa92dc1a.jpg"
+        },
+        {
+          "id": 959,
+          "film_name": "Звёздные войны XXIII: Атака клонированных клонов",
+          "film_duration": 120,
+          "film_description": "Описание...",
+          "film_origin": "США",
+          "film_poster": "src/assets/14736af721f34de96dba8f25249b3f73.jpg"
+      }
+    ],
+    "seances": [
+      {
+        "id": 1236,
+        "seance_hallid": 2933,
+        "seance_filmid": 957,
+        "seance_time": "12:54"
+      },
+      {
+        "id": 1237,
+        "seance_hallid": 2933,
+        "seance_filmid": 958,
+        "seance_time": "18:00"
+      },
+      {
+        "id": 1238,
+        "seance_hallid": 2933,
+        "seance_filmid": 957,
+        "seance_time": "07:55"
+      },
+      {
+        "id": 1239,
+        "seance_hallid": 2933,
+        "seance_filmid": 957,
+        "seance_time": "04:55"
+      },
+      {
+        "id": 1240,
+        "seance_hallid": 2934,
+        "seance_filmid": 959,
+        "seance_time": "12:00"
+      },
+      {
+        "id": 1241,
+        "seance_hallid": 2934,
+        "seance_filmid": 957,
+        "seance_time": "00:00"
+      }
+    ]
+  }
+}

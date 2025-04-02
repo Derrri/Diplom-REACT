@@ -1,0 +1,75 @@
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  width: 990px;
+  background-color: rgba(241, 235, 230, 0.9);
+  margin: 30px;
+  padding: 10px;
+}
+
+.movie-card-poster-info-container {
+  display: flex;
+}
+
+.movie-poster {
+  width: auto;
+  height: 175px;
+  max-width: 125px;
+  margin-right: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.movie-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  flex: 1;
+}
+
+.movie-title {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.film-description,
+.film-details {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+.seance-times_list {
+  display: flex;
+  margin-bottom: 14px;
+  gap: 4px;
+}
+
+.seance-times {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.seance-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 53px;
+  height: 33px;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+}
+
+._time_disabled {
+  background-color: #c4c4c4;
+  cursor: default;
+}
